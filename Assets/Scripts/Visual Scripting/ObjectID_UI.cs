@@ -77,6 +77,10 @@ public class ObjectID_UI : MonoBehaviour, IPointerDownHandler, IDragHandler, IEn
             Destroy(gameObject);
             deleteArea.ClosePanel();
         }
+        else if (lienzoUI.IsObjectInsidePanel(gameObject))
+        {
+            //rectTransform.parent = lienzoUI.transform;
+        }
     }
 
     // Método para ejecutar una instrucción
