@@ -4,10 +4,13 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using TMPro;
 using System;
+using System.Collections;
 
-public class ObjectID_UI : MonoBehaviour, IPointerDownHandler, IDragHandler, IEndDragHandler
+public class ObjectID_UI : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
+    [Header ("Datos del objeto")]
     public int ID;
+    public bool instruccionCompletada;
     private RectTransform rectTransform;
     private Canvas canvas;
     private Lienzo_UI lienzoUI;  // Referencia al lienzo para verificar la "entrada" del objeto
@@ -15,8 +18,17 @@ public class ObjectID_UI : MonoBehaviour, IPointerDownHandler, IDragHandler, IEn
     public Variable1 var;
     private Vector2 originalPosition;
     DeleteArea_UI deleteArea;
+    [SerializeField]GameObject blockCopy;
+
+    [Header("Extras")]
+    [SerializeField] private bool firstMove;
 
     [SerializeField] private TextMeshProUGUI TypeText;
+
+    void Awake()
+    {
+        firstMove = false;
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -47,6 +59,21 @@ public class ObjectID_UI : MonoBehaviour, IPointerDownHandler, IDragHandler, IEn
         }
 
         TypeText.text = var.ToString();
+    }
+
+    public void OnBeginDrag(PointerEventData eventData)
+    {
+        //blockCopy.GetComponent<CanvasGroup>().blocksRaycasts = false;
+
+        if (deleteArea.IsObjectInsidePanel(gameObject))
+        {
+            blockCopy = Instantiate(gameObject, transform.parent);
+            blockCopy.transform.SetParent(canvas.transform); // Añadirlo al canvas principal
+        }
+        else if (lienzoUI.IsObjectInsidePanel(gameObject))
+        {
+            //rectTransform.parent = lienzoUI.transform;
+        }
     }
 
     // Evento cuando se empieza a arrastrar el objeto
@@ -83,10 +110,12 @@ public class ObjectID_UI : MonoBehaviour, IPointerDownHandler, IDragHandler, IEn
         }
     }
 
+    public void ResetInstruction(){
+        instruccionCompletada = false;
+    }
     // Método para ejecutar una instrucción
     public void Instruction()
     {
-
         switch(var){
             case Variable1.Saltar:
                 Player.Instance.PlayerRB.AddForce(transform.up * 300);
@@ -105,8 +134,20 @@ public class ObjectID_UI : MonoBehaviour, IPointerDownHandler, IDragHandler, IEn
             break;
             case Variable1.Disparar:
                 print("Disparar");
+                Player.Instance.Disparar();
             break;
         }
+
+    }
+
+    public IEnumerator PlayInstruction(){
+
+        yield return new WaitForSeconds(3f);
+    }
+
+    public void InstruccionCompleta()
+    {
+        instruccionCompletada = true;
     }
 }
 

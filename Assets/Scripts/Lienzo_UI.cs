@@ -13,6 +13,9 @@ public class Lienzo_UI : MonoBehaviour
     public Player player;
     public Vector3 InitPos;
 
+    //Singleton
+    public static Lienzo_UI Instance { get; private set; }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -38,20 +41,35 @@ public class Lienzo_UI : MonoBehaviour
 
     }
     // Método para correr el script que contiene el lienzo 
+
+    public void ResetBlock(){
+        player.transform.position = InitPos;
+        for (int i = 0; i < ObjectIDList.Count; i++)
+        {
+            ObjectIDList[i].GetComponent<ObjectID_UI>().InstruccionCompleta();
+        }
+    }
     public IEnumerator PlayGame()
     {
-        //player.transform.position = InitPos;
+        player.transform.position = InitPos;
         for (int i = 0; i < ObjectIDList.Count; i++)
         {
             // Llamar a la instrucción de cada objeto si está dentro del panel
             if (IsObjectInsidePanel(ObjectIDList[i]))
             {
                 ObjectIDList[i].GetComponent<ObjectID_UI>().Instruction();
+                ObjectIDList[i].GetComponent<ObjectID_UI>().InstruccionCompleta();
             }
 
             // Esperar 1 segundo antes de pasar al siguiente
-            yield return new WaitForSeconds(0.4f);
+            yield return new WaitForSeconds(0.35f);
         }
+    }
+
+    public void LeerBloques(){
+        //La distancia que recorra el jugador dependerá completamente de los bloques de movimiento que contenga el lienzo
+        player.transform.position = InitPos;
+
     }
 
     void Sort(){

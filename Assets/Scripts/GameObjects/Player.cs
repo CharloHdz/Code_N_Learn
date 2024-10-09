@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
     public Rigidbody PlayerRB;
+    [SerializeField] private GameObject Proyectil;
+    [SerializeField] private Transform ProyectilSpawn;
     public static Player Instance { get; private set; }
     private void Awake()
     { 
@@ -29,5 +32,19 @@ public class Player : MonoBehaviour
     void Update()
     {
         
+    }
+
+    //Acciones del jugador
+
+    public void Avanzar(){
+        
+    }
+
+    public void saltar(){
+
+    }
+
+    public void Disparar(){
+        Instantiate(Proyectil, ProyectilSpawn.transform.position, Quaternion.identity);
     }
 }
