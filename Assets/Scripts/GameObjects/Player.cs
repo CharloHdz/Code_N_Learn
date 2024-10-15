@@ -9,6 +9,9 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject Proyectil;
     [SerializeField] private Transform ProyectilSpawn;
     public static Player Instance { get; private set; }
+    public Vector3 InitPos;
+
+    [SerializeField] Animator animator;
     private void Awake()
     { 
         // If there is an instance, and it's not me, delete myself.
@@ -31,7 +34,29 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //Animar mocimiento del jugador
+        if(Input.GetAxis("Horizontal") != 0){
+            animator.SetTrigger("Running");
+        }else{
+            animator.SetTrigger("Idle");
+        }
+
+        if(Input.GetAxis("Vertical") != 0){
+            animator.SetTrigger("Jump");
+        }
+    }
+
+    //Animaciones del jugador
+    public void AnimRun(){
+        animator.SetTrigger("Running");
+    }
+
+    public void AnimIdle(){
+        animator.SetTrigger("Idle");
+    }
+
+    public void AnimJump(){
+        animator.SetTrigger("Jump");
     }
 
     //Acciones del jugador

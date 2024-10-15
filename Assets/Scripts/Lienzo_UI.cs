@@ -11,7 +11,6 @@ public class Lienzo_UI : MonoBehaviour
     public RectTransform panelRectTransform;  // Referencia al área del lienzo (Panel)
     public Canvas canvas;  // Referencia al Canvas, necesario para calcular las posiciones en pantalla
     public Player player;
-    public Vector3 InitPos;
 
     //Singleton
     public static Lienzo_UI Instance { get; private set; }
@@ -43,7 +42,7 @@ public class Lienzo_UI : MonoBehaviour
     // Método para correr el script que contiene el lienzo 
 
     public void ResetBlock(){
-        player.transform.position = InitPos;
+        player.transform.position = player.InitPos;
         for (int i = 0; i < ObjectIDList.Count; i++)
         {
             ObjectIDList[i].GetComponent<ObjectID_UI>().InstruccionCompleta();
@@ -51,7 +50,7 @@ public class Lienzo_UI : MonoBehaviour
     }
     public IEnumerator PlayGame()
     {
-        player.transform.position = InitPos;
+        player.transform.position = player.InitPos;
         for (int i = 0; i < ObjectIDList.Count; i++)
         {
             // Llamar a la instrucción de cada objeto si está dentro del panel
@@ -68,12 +67,12 @@ public class Lienzo_UI : MonoBehaviour
 
     public void LeerBloques(){
         //La distancia que recorra el jugador dependerá completamente de los bloques de movimiento que contenga el lienzo
-        player.transform.position = InitPos;
+        player.transform.position = player.InitPos;
 
     }
 
     void Sort(){
-        ObjectIDList = ObjectIDList.OrderByDescending(obj => obj.transform.position.y).ToList();
+        ObjectIDList = ObjectIDList.OrderByDescending(obj => obj.transform.position.x * -1).ToList();
     }
 
     // Método para verificar si el objeto está dentro del área del panel

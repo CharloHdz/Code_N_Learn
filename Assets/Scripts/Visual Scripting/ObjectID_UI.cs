@@ -1,35 +1,46 @@
-using Microsoft.Unity.VisualStudio.Editor;
-using UnityEditor.UI;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using TMPro;
-using System;
 using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.UI;  // Añadir la referencia correcta para Image
 
-public class ObjectID_UI : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IDragHandler, IEndDragHandler
+public class ObjectID_UI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    [Header ("Datos del objeto")]
+    [Header("Datos del objeto")]
     public int ID;
     public bool instruccionCompletada;
     private RectTransform rectTransform;
     private Canvas canvas;
+    [SerializeField] private Image image;
     private Lienzo_UI lienzoUI;  // Referencia al lienzo para verificar la "entrada" del objeto
-
-    public Variable1 var;
+    [SerializeField] private List<Sprite> BlockImage;
     private Vector2 originalPosition;
-    DeleteArea_UI deleteArea;
-    [SerializeField]GameObject blockCopy;
+    private DeleteArea_UI deleteArea;
+    [SerializeField] private GameObject blockCopy;
 
     [Header("Extras")]
-    [SerializeField] private bool firstMove;
+    [SerializeField] private bool firstMove = false;
 
     [SerializeField] private TextMeshProUGUI TypeText;
 
-    void Awake()
+    // Para detectar cambios en tipoBloque
+    [SerializeField]private TipoBloque _tipoBloque;
+
+    public TipoBloque tipoBloque
     {
-        firstMove = false;
+        get { return _tipoBloque; }
+        set
+        {
+            if (_tipoBloque != value)
+            {
+                _tipoBloque = value;
+                TypeText.text = _tipoBloque.ToString();
+                UpdateBlockSprite();
+            }
+        }
     }
-    // Start is called before the first frame update
+
     void Start()
     {
         rectTransform = GetComponent<RectTransform>();
@@ -38,9 +49,17 @@ public class ObjectID_UI : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
         originalPosition = rectTransform.anchoredPosition;  // Guardamos la posición original
         deleteArea = FindObjectOfType<DeleteArea_UI>();
         TypeText = GetComponentInChildren<TextMeshProUGUI>();
+        image = GetComponent<Image>();
+        TypeText.text = tipoBloque.ToString();  // Inicialización de texto según el tipo de bloque
     }
 
     void Update()
+    {
+        UpdateObjectInLienzo();
+        UpdateBlockSprite();
+    }
+
+    private void UpdateObjectInLienzo()
     {
         // Si el objeto está dentro del panel, agregarlo a la lista, si no, removerlo
         if (lienzoUI.IsObjectInsidePanel(gameObject))
@@ -57,91 +76,97 @@ public class ObjectID_UI : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
                 lienzoUI.ObjectIDList.Remove(gameObject);
             }
         }
+    }
 
-        TypeText.text = var.ToString();
+    private void UpdateBlockSprite()
+    {
+        switch (_tipoBloque)
+        {
+            case TipoBloque.Avanzar:
+                image.sprite = BlockImage[0];
+                break;
+            case TipoBloque.AvanzarNum:
+                image.sprite = BlockImage[1];
+                break;
+            case TipoBloque.Saltar:
+                image.sprite = BlockImage[2];
+                break;
+            case TipoBloque.Disparar:
+                image.sprite = BlockImage[3];
+                break;
+            case TipoBloque.Agacharse:
+                image.sprite = BlockImage[4];
+                break;
+        }
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        //blockCopy.GetComponent<CanvasGroup>().blocksRaycasts = false;
-
-        if (deleteArea.IsObjectInsidePanel(gameObject))
+        if (deleteArea.IsObjectInsidePanel(gameObject) && firstMove == false)
         {
             blockCopy = Instantiate(gameObject, transform.parent);
             blockCopy.transform.SetParent(canvas.transform); // Añadirlo al canvas principal
+            firstMove = true;
         }
-        else if (lienzoUI.IsObjectInsidePanel(gameObject))
-        {
-            //rectTransform.parent = lienzoUI.transform;
-        }
-    }
-
-    // Evento cuando se empieza a arrastrar el objeto
-    public void OnPointerDown(PointerEventData eventData)
-    {
-        //originalPosition = rectTransform.anchoredPosition;
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        // Movemos el objeto según la posición del puntero
         Vector2 movePos;
-        RectTransformUtility.ScreenPointToLocalPointInRectangle(canvas.transform as RectTransform, eventData.position, eventData.pressEventCamera, out movePos);
-        rectTransform.anchoredPosition = movePos;
-
-        if(deleteArea.IsObjectInsidePanel(gameObject)){
-            deleteArea.gameObject.SetActive(true);
-        } else {
-            deleteArea.gameObject.SetActive(false);
+        if (RectTransformUtility.ScreenPointToLocalPointInRectangle(canvas.transform as RectTransform, eventData.position, eventData.pressEventCamera, out movePos))
+        {
+            rectTransform.anchoredPosition = movePos;
         }
+
+        deleteArea.gameObject.SetActive(deleteArea.IsObjectInsidePanel(gameObject));
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        // Verificar si el objeto está dentro del panel de eliminación
         if (deleteArea.IsObjectInsidePanel(gameObject))
         {
             Destroy(gameObject);
             deleteArea.ClosePanel();
         }
-        else if (lienzoUI.IsObjectInsidePanel(gameObject))
-        {
-            //rectTransform.parent = lienzoUI.transform;
-        }
     }
 
-    public void ResetInstruction(){
+    public void ResetInstruction()
+    {
         instruccionCompletada = false;
     }
-    // Método para ejecutar una instrucción
+
     public void Instruction()
     {
-        switch(var){
-            case Variable1.Saltar:
+        switch (tipoBloque)
+        {
+            case TipoBloque.Saltar:
+                Player.Instance.AnimJump();
                 Player.Instance.PlayerRB.AddForce(transform.up * 300);
-            break;
-            case Variable1.Agacharse:
-                print("Agachar");
-            break;
-            case Variable1.Avanzar:
+                break;
+            case TipoBloque.Agacharse:
+                Debug.Log("Agachar");
+                break;
+            case TipoBloque.Avanzar:
+                Player.Instance.AnimRun();
                 Rigidbody rb = Player.Instance.PlayerRB;
                 if (rb != null)
                 {
                     rb.AddForce(Vector2.right * 200);
-                    print("Avanzar");
+                    Debug.Log("Avanzar");
                 }
-                print("Avanzar");
-            break;
-            case Variable1.Disparar:
-                print("Disparar");
+                break;
+            case TipoBloque.AvanzarNum:
+                Debug.Log("AvanzarNum");
+                break;
+            case TipoBloque.Disparar:
+                Debug.Log("Disparar");
                 Player.Instance.Disparar();
-            break;
+                break;
         }
-
     }
 
-    public IEnumerator PlayInstruction(){
-
+    public IEnumerator PlayInstruction()
+    {
         yield return new WaitForSeconds(3f);
     }
 
@@ -151,8 +176,10 @@ public class ObjectID_UI : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     }
 }
 
-public enum Variable1{
+public enum TipoBloque
+{
     Avanzar,
+    AvanzarNum,
     Saltar,
     Disparar,
     Agacharse
