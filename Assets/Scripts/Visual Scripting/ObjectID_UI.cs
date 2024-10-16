@@ -15,6 +15,8 @@ public class ObjectID_UI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     [SerializeField] private Image image;
     private Lienzo_UI lienzoUI;  // Referencia al lienzo para verificar la "entrada" del objeto
     [SerializeField] private List<Sprite> BlockImage;
+    [SerializeField] private List<Sprite> MiniBlockImage;
+    [SerializeField] private RectTransform BlockRectTransform;
     private Vector2 originalPosition;
     private DeleteArea_UI deleteArea;
     [SerializeField] private GameObject blockCopy;
@@ -51,12 +53,13 @@ public class ObjectID_UI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         TypeText = GetComponentInChildren<TextMeshProUGUI>();
         image = GetComponent<Image>();
         TypeText.text = tipoBloque.ToString();  // Inicialización de texto según el tipo de bloque
+        BlockRectTransform = GetComponent<RectTransform>();
+        UpdateBlockSprite();
     }
 
     void Update()
     {
         UpdateObjectInLienzo();
-        UpdateBlockSprite();
     }
 
     private void UpdateObjectInLienzo()
@@ -68,6 +71,9 @@ public class ObjectID_UI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
             {
                 lienzoUI.ObjectIDList.Add(gameObject);
             }
+
+            //Cambiar el Sprite del bloque a mini 
+            UpdateMiniBlockSprite();
         }
         else
         {
@@ -78,6 +84,25 @@ public class ObjectID_UI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         }
     }
 
+    private void UpdateMiniBlockSprite(){
+        TypeText.gameObject.SetActive(false);
+        switch (_tipoBloque){
+            case TipoBloque.Avanzar:
+                image.sprite = MiniBlockImage[0];
+            break;
+            case TipoBloque.AvanzarNum:
+                image.sprite = MiniBlockImage[0];
+            break;
+            case TipoBloque.Saltar:
+                image.sprite = MiniBlockImage[1];
+            break;
+            case TipoBloque.Disparar:
+                image.sprite = MiniBlockImage[2];
+            break;
+        }
+        BlockRectTransform.sizeDelta = new Vector2(60, 60);
+    }
+
     private void UpdateBlockSprite()
     {
         switch (_tipoBloque)
@@ -86,16 +111,16 @@ public class ObjectID_UI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
                 image.sprite = BlockImage[0];
                 break;
             case TipoBloque.AvanzarNum:
-                image.sprite = BlockImage[1];
+                image.sprite = BlockImage[0];
                 break;
             case TipoBloque.Saltar:
-                image.sprite = BlockImage[2];
+                image.sprite = BlockImage[1];
                 break;
             case TipoBloque.Disparar:
-                image.sprite = BlockImage[3];
+                image.sprite = BlockImage[2];
                 break;
             case TipoBloque.Agacharse:
-                image.sprite = BlockImage[4];
+                image.sprite = BlockImage[3];
                 break;
         }
     }
@@ -140,20 +165,20 @@ public class ObjectID_UI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         switch (tipoBloque)
         {
             case TipoBloque.Saltar:
-                Player.Instance.AnimJump();
                 Player.Instance.PlayerRB.AddForce(transform.up * 300);
+                Player.Instance.AnimJump();
                 break;
             case TipoBloque.Agacharse:
                 Debug.Log("Agachar");
                 break;
             case TipoBloque.Avanzar:
-                Player.Instance.AnimRun();
                 Rigidbody rb = Player.Instance.PlayerRB;
                 if (rb != null)
                 {
-                    rb.AddForce(Vector2.right * 200);
+                    rb.AddForce(Vector2.right * 300);
                     Debug.Log("Avanzar");
                 }
+                Player.Instance.AnimRun();
                 break;
             case TipoBloque.AvanzarNum:
                 Debug.Log("AvanzarNum");

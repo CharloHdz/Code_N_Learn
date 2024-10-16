@@ -9,9 +9,14 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject Proyectil;
     [SerializeField] private Transform ProyectilSpawn;
     public static Player Instance { get; private set; }
-    public Vector3 InitPos;
 
-    [SerializeField] Animator animator;
+    public Transform SpawnPoint;
+
+    public Animator animator;
+
+    [Header("Animaciones de movimiento")]
+    public float posX;
+    
     private void Awake()
     { 
         // If there is an instance, and it's not me, delete myself.
@@ -29,21 +34,13 @@ public class Player : MonoBehaviour
     void Start()
     {
         PlayerRB = GetComponent<Rigidbody>();
+        SpawnPoint = GameObject.Find("SpawnPoint").transform;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //Animar mocimiento del jugador
-        if(Input.GetAxis("Horizontal") != 0){
-            animator.SetTrigger("Running");
-        }else{
-            animator.SetTrigger("Idle");
-        }
-
-        if(Input.GetAxis("Vertical") != 0){
-            animator.SetTrigger("Jump");
-        }
+        
     }
 
     //Animaciones del jugador
@@ -51,23 +48,15 @@ public class Player : MonoBehaviour
         animator.SetTrigger("Running");
     }
 
-    public void AnimIdle(){
-        animator.SetTrigger("Idle");
-    }
-
     public void AnimJump(){
         animator.SetTrigger("Jump");
     }
 
-    //Acciones del jugador
-
-    public void Avanzar(){
-        
+    public void AnimIdle(){
+        animator.SetTrigger("Idle");
     }
 
-    public void saltar(){
-
-    }
+    //Accion del jugador
 
     public void Disparar(){
         Instantiate(Proyectil, ProyectilSpawn.transform.position, Quaternion.identity);

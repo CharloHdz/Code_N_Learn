@@ -42,7 +42,7 @@ public class Lienzo_UI : MonoBehaviour
     // Método para correr el script que contiene el lienzo 
 
     public void ResetBlock(){
-        player.transform.position = player.InitPos;
+        //player.transform.position = player.InitPos;
         for (int i = 0; i < ObjectIDList.Count; i++)
         {
             ObjectIDList[i].GetComponent<ObjectID_UI>().InstruccionCompleta();
@@ -50,7 +50,7 @@ public class Lienzo_UI : MonoBehaviour
     }
     public IEnumerator PlayGame()
     {
-        player.transform.position = player.InitPos;
+        player.transform.position = Player.Instance.SpawnPoint.position;
         for (int i = 0; i < ObjectIDList.Count; i++)
         {
             // Llamar a la instrucción de cada objeto si está dentro del panel
@@ -62,13 +62,12 @@ public class Lienzo_UI : MonoBehaviour
 
             // Esperar 1 segundo antes de pasar al siguiente
             yield return new WaitForSeconds(0.35f);
+
+            //Ejecutar accion cuando se hayan completado todas las instrucciones
+            if(i == ObjectIDList.Count - 1){
+                Player.Instance.animator.SetTrigger("Idle");
+            }
         }
-    }
-
-    public void LeerBloques(){
-        //La distancia que recorra el jugador dependerá completamente de los bloques de movimiento que contenga el lienzo
-        player.transform.position = player.InitPos;
-
     }
 
     void Sort(){

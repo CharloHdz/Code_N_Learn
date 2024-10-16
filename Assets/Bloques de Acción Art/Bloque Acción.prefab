@@ -98,9 +98,14 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 84f0f73e13e5b764eaa4a5380d7e22c7, type: 3}
   - {fileID: 21300000, guid: c7dbde4ab18ea6d4898d7894262f393a, type: 3}
   - {fileID: 21300000, guid: 6c2470a516f101042a3fefdce89d4727, type: 3}
+  MiniBlockImage:
+  - {fileID: 21300000, guid: 1d204a1c677b8a840bb8ccbeb3807fa8, type: 3}
+  - {fileID: 21300000, guid: f2dead252c403a24db47edcdec33479d, type: 3}
+  - {fileID: 21300000, guid: 6da81a5e6fb2fff4f9c933f0e82204e2, type: 3}
   blockCopy: {fileID: 678526976531276693}
   firstMove: 0
   TypeText: {fileID: 3744903956491280331}
+  _tipoBloque: 0
 --- !u!1 &3449408122741509745
 GameObject:
   m_ObjectHideFlags: 0

@@ -28,14 +28,14 @@ public class Proyectil : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("Enemigo o Muerte")){
-            transform.position = Player.InitPos;
+            transform.position = Player.Instance.SpawnPoint.position;
         }
     }
 
     void OnCollisionEnter(Collision other)
     {
         if(other.gameObject.tag == "Enemigo o Muerte"){
-            transform.position = Player.InitPos;
+            transform.position = Player.Instance.SpawnPoint.position;
         }
     }
 }
