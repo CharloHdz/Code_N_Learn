@@ -16,6 +16,8 @@ public class Player : MonoBehaviour
 
     [Header("Animaciones de movimiento")]
     public float posX;
+
+    public string estado;
     
     private void Awake()
     { 
@@ -40,7 +42,10 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(estado == "Avanzar"){
+            posX += 14 * Time.deltaTime;
+            transform.position = new Vector3(posX, transform.position.y, transform.position.z);
+        }
     }
 
     //Animaciones del jugador

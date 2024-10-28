@@ -51,6 +51,7 @@ public class Lienzo_UI : MonoBehaviour
     public IEnumerator PlayGame()
     {
         player.transform.position = Player.Instance.SpawnPoint.position;
+        Player.Instance.posX = player.transform.position.x;
         for (int i = 0; i < ObjectIDList.Count; i++)
         {
             // Llamar a la instrucción de cada objeto si está dentro del panel
@@ -66,6 +67,7 @@ public class Lienzo_UI : MonoBehaviour
             //Ejecutar accion cuando se hayan completado todas las instrucciones
             if(i == ObjectIDList.Count - 1){
                 Player.Instance.animator.SetTrigger("Idle");
+                Player.Instance.estado = "Idle";
             }
         }
     }

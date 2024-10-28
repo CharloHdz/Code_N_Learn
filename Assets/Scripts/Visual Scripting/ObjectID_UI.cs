@@ -14,8 +14,7 @@ public class ObjectID_UI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     private Canvas canvas;
     [SerializeField] private Image image;
     private Lienzo_UI lienzoUI;  // Referencia al lienzo para verificar la "entrada" del objeto
-    [SerializeField] private List<Sprite> BlockImage;
-    [SerializeField] private List<Sprite> MiniBlockImage;
+    [SerializeField] private List<Sprite> TipeBlockImage;
     [SerializeField] private RectTransform BlockRectTransform;
     private Vector2 originalPosition;
     private DeleteArea_UI deleteArea;
@@ -23,8 +22,6 @@ public class ObjectID_UI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 
     [Header("Extras")]
     [SerializeField] private bool firstMove = false;
-
-    [SerializeField] private TextMeshProUGUI TypeText;
 
     // Para detectar cambios en tipoBloque
     [SerializeField]private TipoBloque _tipoBloque;
@@ -37,8 +34,6 @@ public class ObjectID_UI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
             if (_tipoBloque != value)
             {
                 _tipoBloque = value;
-                TypeText.text = _tipoBloque.ToString();
-                UpdateBlockSprite();
             }
         }
     }
@@ -50,16 +45,14 @@ public class ObjectID_UI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         lienzoUI = FindObjectOfType<Lienzo_UI>();  // Obtenemos referencia al Lienzo en la escena
         originalPosition = rectTransform.anchoredPosition;  // Guardamos la posición original
         deleteArea = FindObjectOfType<DeleteArea_UI>();
-        TypeText = GetComponentInChildren<TextMeshProUGUI>();
         image = GetComponent<Image>();
-        TypeText.text = tipoBloque.ToString();  // Inicialización de texto según el tipo de bloque
         BlockRectTransform = GetComponent<RectTransform>();
-        UpdateBlockSprite();
     }
 
     void Update()
     {
         UpdateObjectInLienzo();
+        UpdateTipeBlockSprite();
     }
 
     private void UpdateObjectInLienzo()
@@ -71,9 +64,6 @@ public class ObjectID_UI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
             {
                 lienzoUI.ObjectIDList.Add(gameObject);
             }
-
-            //Cambiar el Sprite del bloque a mini 
-            UpdateMiniBlockSprite();
         }
         else
         {
@@ -84,44 +74,20 @@ public class ObjectID_UI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         }
     }
 
-    private void UpdateMiniBlockSprite(){
-        TypeText.gameObject.SetActive(false);
+    private void UpdateTipeBlockSprite(){
         switch (_tipoBloque){
             case TipoBloque.Avanzar:
-                image.sprite = MiniBlockImage[0];
+                image.sprite = TipeBlockImage[0];
             break;
             case TipoBloque.AvanzarNum:
-                image.sprite = MiniBlockImage[0];
+                image.sprite = TipeBlockImage[0];
             break;
             case TipoBloque.Saltar:
-                image.sprite = MiniBlockImage[1];
+                image.sprite = TipeBlockImage[1];
             break;
             case TipoBloque.Disparar:
-                image.sprite = MiniBlockImage[2];
+                image.sprite = TipeBlockImage[2];
             break;
-        }
-        BlockRectTransform.sizeDelta = new Vector2(60, 60);
-    }
-
-    private void UpdateBlockSprite()
-    {
-        switch (_tipoBloque)
-        {
-            case TipoBloque.Avanzar:
-                image.sprite = BlockImage[0];
-                break;
-            case TipoBloque.AvanzarNum:
-                image.sprite = BlockImage[0];
-                break;
-            case TipoBloque.Saltar:
-                image.sprite = BlockImage[1];
-                break;
-            case TipoBloque.Disparar:
-                image.sprite = BlockImage[2];
-                break;
-            case TipoBloque.Agacharse:
-                image.sprite = BlockImage[3];
-                break;
         }
     }
 
@@ -167,25 +133,24 @@ public class ObjectID_UI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
             case TipoBloque.Saltar:
                 Player.Instance.PlayerRB.AddForce(transform.up * 300);
                 Player.Instance.AnimJump();
+                Player.Instance.estado = "Avanzar";
                 break;
             case TipoBloque.Agacharse:
                 Debug.Log("Agachar");
+                Player.Instance.estado = "Agachar";
                 break;
             case TipoBloque.Avanzar:
-                Rigidbody rb = Player.Instance.PlayerRB;
-                if (rb != null)
-                {
-                    rb.AddForce(Vector2.right * 300);
-                    Debug.Log("Avanzar");
-                }
+                Player.Instance.estado = "Avanzar";
                 Player.Instance.AnimRun();
                 break;
             case TipoBloque.AvanzarNum:
                 Debug.Log("AvanzarNum");
+                Player.Instance.estado = "Avanzar";
                 break;
             case TipoBloque.Disparar:
                 Debug.Log("Disparar");
                 Player.Instance.Disparar();
+                Player.Instance.estado = "Disparar";
                 break;
         }
     }
