@@ -62,11 +62,11 @@ public class Lienzo_UI : MonoBehaviour
             }
 
             // Esperar 1 segundo antes de pasar al siguiente
-            yield return new WaitForSeconds(0.35f);
+            yield return new WaitForSeconds(1f);
 
             //Ejecutar accion cuando se hayan completado todas las instrucciones
             if(i == ObjectIDList.Count - 1){
-                Player.Instance.animator.SetTrigger("Idle");
+                Player.Instance.animator.SetInteger("Doll", 2);
                 Player.Instance.estado = "Idle";
             }
         }

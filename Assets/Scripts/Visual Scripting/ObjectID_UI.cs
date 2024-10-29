@@ -132,8 +132,8 @@ public class ObjectID_UI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         {
             case TipoBloque.Saltar:
                 Player.Instance.PlayerRB.AddForce(transform.up * 300);
-                Player.Instance.AnimJump();
-                Player.Instance.estado = "Avanzar";
+                //Player.Instance.AnimJump();
+                Player.Instance.estado = "Saltar";
                 break;
             case TipoBloque.Agacharse:
                 Debug.Log("Agachar");
@@ -141,7 +141,7 @@ public class ObjectID_UI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
                 break;
             case TipoBloque.Avanzar:
                 Player.Instance.estado = "Avanzar";
-                Player.Instance.AnimRun();
+                //Player.Instance.AnimRun();
                 break;
             case TipoBloque.AvanzarNum:
                 Debug.Log("AvanzarNum");

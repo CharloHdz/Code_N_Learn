@@ -43,8 +43,13 @@ public class Player : MonoBehaviour
     void Update()
     {
         if(estado == "Avanzar"){
-            posX += 14 * Time.deltaTime;
+            posX += 5 * Time.deltaTime;
             transform.position = new Vector3(posX, transform.position.y, transform.position.z);
+            animator.SetInteger("Doll", 0);
+        }
+        else if(estado == "Saltar"){
+            transform.position = new Vector3(posX, transform.position.y, transform.position.z);
+            animator.SetInteger("Doll", 1);
         }
     }
 
@@ -58,7 +63,7 @@ public class Player : MonoBehaviour
     }
 
     public void AnimIdle(){
-        animator.SetTrigger("Idle");
+        animator.SetInteger("Doll", 2);
     }
 
     //Accion del jugador
