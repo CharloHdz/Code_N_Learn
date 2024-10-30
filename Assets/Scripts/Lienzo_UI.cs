@@ -12,6 +12,10 @@ public class Lienzo_UI : MonoBehaviour
     public Canvas canvas;  // Referencia al Canvas, necesario para calcular las posiciones en pantalla
     public Player player;
 
+    [SerializeField] private GameObject PlayBtn;
+    [SerializeField] private List<Sprite> PlayBtnState;
+    private Image PlayBtnImage;
+
     //Singleton
     public static Lienzo_UI Instance { get; private set; }
 
@@ -20,6 +24,7 @@ public class Lienzo_UI : MonoBehaviour
     {
         player = FindObjectOfType<Player>();
         ObjectIDList = new List<GameObject>();  // Inicializamos la lista de objetos
+        PlayBtnImage = PlayBtn.GetComponent<Image>();
     }
 
     // Update is called once per frame
@@ -48,8 +53,12 @@ public class Lienzo_UI : MonoBehaviour
             ObjectIDList[i].GetComponent<ObjectID_UI>().InstruccionCompleta();
         }
     }
+
+    public string EstadoJuego;
     public IEnumerator PlayGame()
     {
+        EstadoJuego = "Leyendo";
+        PlayBtnImage.sprite = PlayBtnState[1];
         player.transform.position = Player.Instance.SpawnPoint.position;
         Player.Instance.posX = player.transform.position.x;
         for (int i = 0; i < ObjectIDList.Count; i++)
@@ -67,6 +76,8 @@ public class Lienzo_UI : MonoBehaviour
             //Ejecutar accion cuando se hayan completado todas las instrucciones
             if(i == ObjectIDList.Count - 1){
                 Player.Instance.estado = "Idle";
+                EstadoJuego = "Lectura Completada";
+                PlayBtnImage.sprite = PlayBtnState[0];
             }
         }
     }
