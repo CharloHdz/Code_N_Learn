@@ -66,7 +66,6 @@ public class Lienzo_UI : MonoBehaviour
 
             //Ejecutar accion cuando se hayan completado todas las instrucciones
             if(i == ObjectIDList.Count - 1){
-                Player.Instance.animator.SetInteger("Doll", 2);
                 Player.Instance.estado = "Idle";
             }
         }

@@ -42,28 +42,24 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(estado == "Avanzar"){
-            posX += 5 * Time.deltaTime;
-            transform.position = new Vector3(posX, transform.position.y, transform.position.z);
-            animator.SetInteger("Doll", 0);
+
+        //Ejecutar acciones
+        switch(estado){
+            case "Avanzar":
+                posX += 5 * Time.deltaTime;
+                transform.position = new Vector3(posX, transform.position.y, transform.position.z);
+                animator.SetTrigger("Run");
+                break;
+            case "Saltar":
+                posX += 5 * Time.deltaTime;
+                transform.position = new Vector3(posX, transform.position.y, transform.position.z);
+                animator.SetTrigger("Jump");
+                break;
+            case "Idle":
+                animator.SetTrigger("Idle");
+                break;
         }
-        else if(estado == "Saltar"){
-            transform.position = new Vector3(posX, transform.position.y, transform.position.z);
-            animator.SetInteger("Doll", 1);
-        }
-    }
 
-    //Animaciones del jugador
-    public void AnimRun(){
-        animator.SetTrigger("Running");
-    }
-
-    public void AnimJump(){
-        animator.SetTrigger("Jump");
-    }
-
-    public void AnimIdle(){
-        animator.SetInteger("Doll", 2);
     }
 
     //Accion del jugador
