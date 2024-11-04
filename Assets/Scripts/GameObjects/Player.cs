@@ -46,12 +46,12 @@ public class Player : MonoBehaviour
         //Ejecutar acciones
         switch(estado){
             case "Avanzar":
-                posX += 5 * Time.deltaTime;
+                posX += 1 * Time.deltaTime;
                 transform.position = new Vector3(posX, transform.position.y, transform.position.z);
                 animator.SetTrigger("Run");
                 break;
             case "Saltar":
-                posX += 5 * Time.deltaTime;
+                posX += 1 * Time.deltaTime;
                 transform.position = new Vector3(posX, transform.position.y, transform.position.z);
                 animator.SetTrigger("Jump");
                 break;
@@ -66,5 +66,13 @@ public class Player : MonoBehaviour
 
     public void Disparar(){
         Instantiate(Proyectil, ProyectilSpawn.transform.position, Quaternion.identity);
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == "Error"){
+            StopAllCoroutines();
+            estado = "Idle";
+        }
     }
 }

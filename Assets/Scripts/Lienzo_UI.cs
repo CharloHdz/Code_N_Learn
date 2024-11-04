@@ -19,6 +19,18 @@ public class Lienzo_UI : MonoBehaviour
     //Singleton
     public static Lienzo_UI Instance { get; private set; }
 
+    void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -80,6 +92,12 @@ public class Lienzo_UI : MonoBehaviour
                 PlayBtnImage.sprite = PlayBtnState[0];
             }
         }
+    }
+
+    public void DetenerJuego(){
+        StopAllCoroutines();
+        EstadoJuego = "Detenido";
+        PlayBtnImage.sprite = PlayBtnState[0];
     }
 
     void Sort(){
