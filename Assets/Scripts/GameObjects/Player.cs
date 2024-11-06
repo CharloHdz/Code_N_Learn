@@ -46,12 +46,12 @@ public class Player : MonoBehaviour
         //Ejecutar acciones
         switch(estado){
             case "Avanzar":
-                posX += 1 * Time.deltaTime;
+                posX += 5 * Time.deltaTime;
                 transform.position = new Vector3(posX, transform.position.y, transform.position.z);
                 animator.SetTrigger("Run");
                 break;
             case "Saltar":
-                posX += 1 * Time.deltaTime;
+                posX += 5 * Time.deltaTime;
                 transform.position = new Vector3(posX, transform.position.y, transform.position.z);
                 animator.SetTrigger("Jump");
                 break;
@@ -59,6 +59,10 @@ public class Player : MonoBehaviour
                 animator.SetTrigger("Idle");
                 break;
         }
+
+
+
+        //Animaciones
 
     }
 
@@ -75,4 +79,6 @@ public class Player : MonoBehaviour
             estado = "Idle";
         }
     }
+
+    
 }

@@ -19,10 +19,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.L)){
-            StopAllCoroutines();
-            print("L pressed");
-        }
+        
     }
 
     public void ChangeCamera()

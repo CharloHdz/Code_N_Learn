@@ -132,7 +132,7 @@ public class ObjectID_UI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         switch (tipoBloque)
         {
             case TipoBloque.Saltar:
-                Player.Instance.PlayerRB.AddForce(transform.up * 250);
+                Player.Instance.PlayerRB.AddForce(transform.up * 500);
                 //Player.Instance.AnimJump();
                 Player.Instance.estado = "Saltar";
                 break;
