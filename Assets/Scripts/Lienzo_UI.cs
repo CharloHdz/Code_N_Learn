@@ -94,12 +94,6 @@ public class Lienzo_UI : MonoBehaviour
         }
     }
 
-    public void DetenerJuego(){
-        StopAllCoroutines();
-        EstadoJuego = "Detenido";
-        PlayBtnImage.sprite = PlayBtnState[0];
-    }
-
     void Sort(){
         ObjectIDList = ObjectIDList.OrderByDescending(obj => obj.transform.position.x * -1).ToList();
     }
