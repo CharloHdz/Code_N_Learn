@@ -8,6 +8,7 @@ using UnityEngine.UI;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEditor;
 
 public class GameManager : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class GameManager : MonoBehaviour
     public Camera PlayerCamera;
 
     [Header("UI")]
+    public EstadosJuego estadoJuego;
     public GameObject MenuPanel;
     public GameObject GamePanel;
     public GameObject PausePanel;
@@ -36,11 +38,12 @@ public class GameManager : MonoBehaviour
         CloseEv();
         MenuPanel.SetActive(true);
         UpdateTemaUI();
+        estadoJuego = EstadosJuego.Menu;
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && estadoJuego == EstadosJuego.Juego || Input.GetKeyDown(KeyCode.Escape) && estadoJuego == EstadosJuego.Pausa)
         {
             PausarJuego();
         }
@@ -96,25 +99,49 @@ public class GameManager : MonoBehaviour
 
     public void PausarJuego()
     {
-        if (Time.timeScale == 1)
+        if (estadoJuego == EstadosJuego.Juego)
         {
             CloseEv();
             Time.timeScale = 0;
             PausePanel.SetActive(true);
+            estadoJuego = EstadosJuego.Pausa;
         }
-        else
+        else if (estadoJuego == EstadosJuego.Pausa)
         {
             CloseEv();
             Time.timeScale = 1;
             GamePanel.SetActive(true);
+            estadoJuego = EstadosJuego.Juego;
         }
     }
 
     public void GotoMenu()
     {
         Time.timeScale = 1;
-        CloseEv();
-        MenuPanel.SetActive(true);
+        estadoJuego = EstadosJuego.Menu;
     }
+
+    public void GoToGame(){
+        Time.timeScale = 1;
+        estadoJuego = EstadosJuego.Juego;
+    }
+
+    public void GoToConfig(){
+        Time.timeScale = 0;
+        estadoJuego = EstadosJuego.Config;
+    }
+
+    public void ReturnToPause(){
+        Time.timeScale = 0;
+        estadoJuego = EstadosJuego.Pausa;
+    }
+}
+
+public enum EstadosJuego{
+    Menu,
+    Juego,
+    Pausa,
+    Config,
+    GameOver
 }
 
