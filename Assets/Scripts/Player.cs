@@ -1,84 +1,111 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public Rigidbody PlayerRB;
-    [SerializeField] private GameObject Proyectil;
-    [SerializeField] private Transform ProyectilSpawn;
     public static Player Instance { get; private set; }
 
-    public Transform SpawnPoint;
-
+    [Header("Componentes")]
+    public Rigidbody PlayerRB;
     public Animator animator;
 
-    [Header("Animaciones de movimiento")]
-    public float posX;
+    [Header("Proyectil")]
+    [SerializeField] private GameObject Proyectil;
+    [SerializeField] private Transform ProyectilSpawn;
 
+    [Header("Puntos de Referencia")]
+    public Transform SpawnPoint;
+
+    [Header("Estado del Jugador")]
+    public float posX; // Posición X para movimiento
     public string estado;
-    
+
     private void Awake()
-    { 
-        // If there is an instance, and it's not me, delete myself.
-        
-        if (Instance != null && Instance != this) 
-        { 
-            Destroy(this); 
-        } 
-        else 
-        { 
-            Instance = this; 
-        } 
+    {
+        // Configuración Singleton
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+        }
     }
-    // Start is called before the first frame update
-    void Start()
+
+    private void Start()
     {
         PlayerRB = GetComponent<Rigidbody>();
         SpawnPoint = GameObject.Find("SpawnPoint").transform;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-
-        //Ejecutar acciones
-        switch(estado){
+        // Ejecutar acciones basadas en el estado actual
+        switch (estado)
+        {
             case "Avanzar":
-                posX += 5 * Time.deltaTime;
-                transform.position = new Vector3(posX, transform.position.y, transform.position.z);
-                animator.SetTrigger("Run");
+                Mover(5f, "Run");
                 break;
             case "Saltar":
-                posX += 5 * Time.deltaTime;
-                transform.position = new Vector3(posX, transform.position.y, transform.position.z);
-                animator.SetTrigger("Jump");
+                Mover(5f, "Jump");
                 break;
             case "Idle":
-                animator.SetTrigger("Idle");
+                SetAnimacion("Idle");
                 break;
         }
-
-
-
-        //Animaciones
-
     }
 
-    //Accion del jugador
-
-    public void Disparar(){
-        Instantiate(Proyectil, ProyectilSpawn.transform.position, Quaternion.identity);
-    }
-
-    void OnTriggerEnter(Collider other)
+    /// <summary>
+    /// Mueve al jugador y establece la animación.
+    /// </summary>
+    /// <param name="velocidad">Velocidad del movimiento.</param>
+    /// <param name="animacion">Trigger de animación a activar.</param>
+    private void Mover(float velocidad, string animacion)
     {
-        if(other.gameObject.tag == "Error"){
+        posX += velocidad * Time.deltaTime;
+        transform.position = new Vector3(posX, transform.position.y, transform.position.z);
+        SetAnimacion(animacion);
+    }
+
+    /// <summary>
+    /// Establece un trigger de animación.
+    /// </summary>
+    /// <param name="trigger">Nombre del trigger.</param>
+    private void SetAnimacion(string trigger)
+    {
+        if (animator != null)
+        {
+            animator.SetTrigger(trigger);
+        }
+    }
+
+    /// <summary>
+    /// Acción para disparar un proyectil desde el punto de spawn.
+    /// </summary>
+    public void Disparar()
+    {
+        if (Proyectil != null && ProyectilSpawn != null)
+        {
+            Instantiate(Proyectil, ProyectilSpawn.position, Quaternion.identity);
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Error"))
+        {
             StopAllCoroutines();
             estado = "Idle";
         }
     }
 
-    
+    public void Parar()
+    {
+        StopAllCoroutines();
+        //Limpiar corutinas
+        
+        estado = "Idle";
+    }
 }

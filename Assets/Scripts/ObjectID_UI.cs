@@ -25,6 +25,7 @@ public class ObjectID_UI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 
     // Para detectar cambios en tipoBloque
     [SerializeField]private TipoBloque _tipoBloque;
+    [SerializeField] private Transform parentTransform;
 
     public TipoBloque tipoBloque
     {
@@ -95,8 +96,8 @@ public class ObjectID_UI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     {
         if (deleteArea.IsObjectInsidePanel(gameObject) && firstMove == false)
         {
-            blockCopy = Instantiate(gameObject, transform.parent);
-            blockCopy.transform.SetParent(canvas.transform); // Añadirlo al canvas principal
+            blockCopy = Instantiate(gameObject, parentTransform); // Crear una copia del objeto
+            blockCopy.transform.SetParent(parentTransform.transform); // Añadirlo al canvas principal
             firstMove = true;
         }
     }
