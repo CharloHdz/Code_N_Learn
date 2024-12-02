@@ -3,12 +3,14 @@ using UnityEngine.EventSystems;
 using TMPro;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.UI;  // Añadir la referencia correcta para Image
+using UnityEngine.UI;
+using NUnit.Framework;  // Añadir la referencia correcta para Image
 
 public class ObjectID_UI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     [Header("Datos del objeto")]
     public int ID;
+    public bool IsBlockInsideCanvas;
     public bool instruccionCompletada;
     private RectTransform rectTransform;
     private Canvas canvas;
@@ -64,6 +66,7 @@ public class ObjectID_UI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
             if (!lienzoUI.ObjectIDList.Contains(gameObject))
             {
                 lienzoUI.ObjectIDList.Add(gameObject);
+                IsBlockInsideCanvas = true;
             }
         }
         else
@@ -71,6 +74,7 @@ public class ObjectID_UI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
             if (lienzoUI.ObjectIDList.Contains(gameObject))
             {
                 lienzoUI.ObjectIDList.Remove(gameObject);
+                IsBlockInsideCanvas = false;
             }
         }
     }

@@ -57,11 +57,6 @@ public class Player : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Mueve al jugador y establece la animación.
-    /// </summary>
-    /// <param name="velocidad">Velocidad del movimiento.</param>
-    /// <param name="animacion">Trigger de animación a activar.</param>
     private void Mover(float velocidad, string animacion)
     {
         posX += velocidad * Time.deltaTime;
@@ -69,10 +64,6 @@ public class Player : MonoBehaviour
         SetAnimacion(animacion);
     }
 
-    /// <summary>
-    /// Establece un trigger de animación.
-    /// </summary>
-    /// <param name="trigger">Nombre del trigger.</param>
     private void SetAnimacion(string trigger)
     {
         if (animator != null)
@@ -81,9 +72,6 @@ public class Player : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Acción para disparar un proyectil desde el punto de spawn.
-    /// </summary>
     public void Disparar()
     {
         if (Proyectil != null && ProyectilSpawn != null)

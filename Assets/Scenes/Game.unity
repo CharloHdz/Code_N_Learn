@@ -1944,7 +1944,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -42.89997, y: 39.19998}
+  m_AnchoredPosition: {x: -42.900024, y: 39.19995}
   m_SizeDelta: {x: 433.98328, y: 704.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1045487193
@@ -2510,6 +2510,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 0
+  IsBlockInsideCanvas: 0
   instruccionCompletada: 0
   image: {fileID: 0}
   TipeBlockImage:
@@ -3091,6 +3092,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 0
+  IsBlockInsideCanvas: 0
   instruccionCompletada: 0
   image: {fileID: 0}
   TipeBlockImage:
@@ -4889,6 +4891,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 0
+  IsBlockInsideCanvas: 0
   instruccionCompletada: 0
   image: {fileID: 0}
   TipeBlockImage:
@@ -5542,7 +5545,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000061035156, y: 39.149986}
+  m_AnchoredPosition: {x: 0, y: 39.149963}
   m_SizeDelta: {x: 0, y: -78.29999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &5470694928715425787
