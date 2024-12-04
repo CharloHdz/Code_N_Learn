@@ -54,6 +54,9 @@ public class Player : MonoBehaviour
             case "Idle":
                 SetAnimacion("Idle");
                 break;
+            case "Disparar":
+                SetAnimacion("Idle");
+                break;
         }
     }
 
@@ -87,6 +90,17 @@ public class Player : MonoBehaviour
             StopAllCoroutines();
             estado = "Idle";
         }
+
+    }
+
+    void OnTriggerStay(Collider other)
+    {
+        if(other.CompareTag("Lava")){
+            StopAllCoroutines();
+            transform.position = SpawnPoint.position;
+            print("Lava");
+        }
+        
     }
 
     public void Parar()
