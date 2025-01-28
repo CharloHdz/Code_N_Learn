@@ -1,0 +1,1805 @@
+fileFormatVersion: 2
+guid: 345c2ef3232d64f4eae764fbd8964642
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6098721582712623991
+    second: Zombie Men_spritelist_0
+  - first:
+      213: 4188710114194896943
+    second: Zombie Men_spritelist_1
+  - first:
+      213: -2042560002701010591
+    second: Zombie Men_spritelist_2
+  - first:
+      213: -673029729363508137
+    second: Zombie Men_spritelist_3
+  - first:
+      213: -7542055223684584022
+    second: Zombie Men_spritelist_4
+  - first:
+      213: 33388270148569810
+    second: Zombie Men_spritelist_5
+  - first:
+      213: 2265317832670277585
+    second: Zombie Men_spritelist_6
+  - first:
+      213: -246930229440557430
+    second: Zombie Men_spritelist_7
+  - first:
+      213: -3911436507423094308
+    second: Zombie Men_spritelist_8
+  - first:
+      213: -1811257254681850027
+    second: Zombie Men_spritelist_9
+  - first:
+      213: 8152009466210531468
+    second: Zombie Men_spritelist_10
+  - first:
+      213: -1009586700226997131
+    second: Zombie Men_spritelist_11
+  - first:
+      213: 612704863760078724
+    second: Zombie Men_spritelist_12
+  - first:
+      213: 2903048093123512057
+    second: Zombie Men_spritelist_13
+  - first:
+      213: -5901073630034104236
+    second: Zombie Men_spritelist_14
+  - first:
+      213: -9002892792806804940
+    second: Zombie Men_spritelist_15
+  - first:
+      213: -6243482862525056910
+    second: Zombie Men_spritelist_16
+  - first:
+      213: 5414778048135643187
+    second: Zombie Men_spritelist_17
+  - first:
+      213: -5915359880930907699
+    second: Zombie Men_spritelist_18
+  - first:
+      213: 3412666929471260544
+    second: Zombie Men_spritelist_19
+  - first:
+      213: -3415606395699759209
+    second: Zombie Men_spritelist_20
+  - first:
+      213: 8706191685538014199
+    second: Zombie Men_spritelist_21
+  - first:
+      213: -4755772453418691583
+    second: Zombie Men_spritelist_22
+  - first:
+      213: 9043674900298934837
+    second: Zombie Men_spritelist_23
+  - first:
+      213: 7788163279006942564
+    second: Zombie Men_spritelist_24
+  - first:
+      213: -8510335724874112705
+    second: Zombie Men_spritelist_25
+  - first:
+      213: -2538467385178770614
+    second: Zombie Men_spritelist_26
+  - first:
+      213: -8209151945918370918
+    second: Zombie Men_spritelist_27
+  - first:
+      213: -4931931496207583968
+    second: Zombie Men_spritelist_28
+  - first:
+      213: 5714080592485509219
+    second: Zombie Men_spritelist_29
+  - first:
+      213: -9098827513289160753
+    second: Zombie Men_spritelist_30
+  - first:
+      213: 2704671872194762513
+    second: Zombie Men_spritelist_31
+  - first:
+      213: -6112377831908210443
+    second: Zombie Men_spritelist_32
+  - first:
+      213: 4376746129157929201
+    second: Zombie Men_spritelist_33
+  - first:
+      213: -3756858591114134547
+    second: Zombie Men_spritelist_34
+  - first:
+      213: 3715355381351039336
+    second: Zombie Men_spritelist_35
+  - first:
+      213: 5557274455517114835
+    second: Zombie Men_spritelist_36
+  - first:
+      213: 6696256393806072946
+    second: Zombie Men_spritelist_37
+  - first:
+      213: 4229589791272374328
+    second: Zombie Men_spritelist_38
+  - first:
+      213: -7707741958594803948
+    second: Zombie Men_spritelist_39
+  - first:
+      213: 3711744697518248188
+    second: Zombie Men_spritelist_40
+  - first:
+      213: -4561790093888281859
+    second: Zombie Men_spritelist_41
+  - first:
+      213: 1117123722744790799
+    second: Zombie Men_spritelist_42
+  - first:
+      213: 5766613258311608670
+    second: Zombie Men_spritelist_43
+  - first:
+      213: -1434457624807043042
+    second: Zombie Men_spritelist_44
+  - first:
+      213: -568732807041869054
+    second: Zombie Men_spritelist_45
+  - first:
+      213: 1629299393087882255
+    second: Zombie Men_spritelist_46
+  - first:
+      213: -2849259279166358170
+    second: Zombie Men_spritelist_47
+  - first:
+      213: -6467197974469950707
+    second: Zombie Men_spritelist_48
+  - first:
+      213: -8868554689866210162
+    second: Zombie Men_spritelist_49
+  - first:
+      213: -5141372469514156637
+    second: Zombie Men_spritelist_50
+  - first:
+      213: -6158551310677720295
+    second: Zombie Men_spritelist_51
+  - first:
+      213: 4822556002716925675
+    second: Zombie Men_spritelist_52
+  - first:
+      213: -903293250274263032
+    second: Zombie Men_spritelist_53
+  - first:
+      213: 5481329050926229451
+    second: Zombie Men_spritelist_54
+  - first:
+      213: -4430721042610271161
+    second: Zombie Men_spritelist_55
+  - first:
+      213: -2735610777503339502
+    second: Zombie Men_spritelist_56
+  - first:
+      213: -5871844274475447158
+    second: Zombie Men_spritelist_57
+  - first:
+      213: 5804500191740772355
+    second: Zombie Men_spritelist_58
+  - first:
+      213: 5095017201839472209
+    second: Zombie Men_spritelist_59
+  - first:
+      213: 593885151604403580
+    second: Zombie Men_spritelist_60
+  - first:
+      213: -6793785798507893393
+    second: Zombie Men_spritelist_61
+  - first:
+      213: 7665384791017342702
+    second: Zombie Men_spritelist_62
+  - first:
+      213: -2662876505736275581
+    second: Zombie Men_spritelist_63
+  - first:
+      213: -978826020785095596
+    second: Zombie Men_spritelist_64
+  - first:
+      213: 7484280597473423944
+    second: Zombie Men_spritelist_65
+  - first:
+      213: -3391155260313876319
+    second: Zombie Men_spritelist_66
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 863
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773189197f203a450800000000000000
+      internalID: 6098721582712623991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 863
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f283ca7f7a9412a30800000000000000
+      internalID: 4188710114194896943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 863
+        width: 31
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169d59edf7e57a3e0800000000000000
+      internalID: -2042560002701010591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 863
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754c20ae60be8a6f0800000000000000
+      internalID: -673029729363508137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_4
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 863
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aada6ebcbbc355790800000000000000
+      internalID: -7542055223684584022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_5
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 863
+        width: 27
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dacedd647e967000800000000000000
+      internalID: 33388270148569810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_6
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 863
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df6baf0196007f10800000000000000
+      internalID: 2265317832670277585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_7
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 863
+        width: 27
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ec3edb34ab29cf0800000000000000
+      internalID: -246930229440557430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_8
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 767
+        width: 31
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd94d8d5839c7b9c0800000000000000
+      internalID: -3911436507423094308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_9
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 767
+        width: 25
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55fc6d19f1f1dd6e0800000000000000
+      internalID: -1811257254681850027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_10
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 767
+        width: 27
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88b9171b61c12170800000000000000
+      internalID: 8152009466210531468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_11
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 767
+        width: 29
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574d203ce3a3df1f0800000000000000
+      internalID: -1009586700226997131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_12
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 767
+        width: 31
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487d29cc3d3c08800800000000000000
+      internalID: 612704863760078724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_13
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 767
+        width: 23
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f680841cd2b94820800000000000000
+      internalID: 2903048093123512057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_14
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 767
+        width: 25
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45074687ccc2b1ea0800000000000000
+      internalID: -5901073630034104236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_15
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 767
+        width: 29
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43273dd44bc4f0380800000000000000
+      internalID: -9002892792806804940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_16
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 671
+        width: 37
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27874f97a61ba59a0800000000000000
+      internalID: -6243482862525056910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_17
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 671
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33045b032f7252b40800000000000000
+      internalID: 5414778048135643187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_18
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 671
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9248a778b68eda0800000000000000
+      internalID: -5915359880930907699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_19
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 671
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0878bd3cd7a3c5f20800000000000000
+      internalID: 3412666929471260544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_20
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 671
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79773cb64145990d0800000000000000
+      internalID: -3415606395699759209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_21
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 671
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3e3fae53b92d870800000000000000
+      internalID: 8706191685538014199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_22
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 671
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1041469962a100eb0800000000000000
+      internalID: -4755772453418691583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_23
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 575
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a2f680866918d70800000000000000
+      internalID: 9043674900298934837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_24
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 575
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46543f12d3d151c60800000000000000
+      internalID: 7788163279006942564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_25
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 575
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31ef877fb635e980800000000000000
+      internalID: -8510335724874112705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_26
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 575
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a433180dc5d85ccd0800000000000000
+      internalID: -2538467385178770614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_27
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 575
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b24549ccb331e80800000000000000
+      internalID: -8209151945918370918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_28
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 575
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0257cf74f624e8bb0800000000000000
+      internalID: -4931931496207583968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_29
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 575
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3686d0d360e7c4f40800000000000000
+      internalID: 5714080592485509219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_30
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 575
+        width: 43
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc749d595987ab180800000000000000
+      internalID: -9098827513289160753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_31
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 575
+        width: 36
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117d820ecbce88520800000000000000
+      internalID: 2704671872194762513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_32
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 575
+        width: 31
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f883242fb87c2ba0800000000000000
+      internalID: -6112377831908210443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_33
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 575
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8368c5a635dbc30800000000000000
+      internalID: 4376746129157929201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_34
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 479
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb744d1405fcdbc0800000000000000
+      internalID: -3756858591114134547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_35
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 479
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861c3c7d8089f8330800000000000000
+      internalID: 3715355381351039336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_36
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 479
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d133707ca76f1d40800000000000000
+      internalID: 5557274455517114835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_37
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 479
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ccfbd36b1edec50800000000000000
+      internalID: 6696256393806072946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_38
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 520
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830986e718582ba30800000000000000
+      internalID: 4229589791272374328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_39
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 510
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4174599a689980590800000000000000
+      internalID: -7707741958594803948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_40
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 479
+        width: 41
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0d3800324c28330800000000000000
+      internalID: 3711744697518248188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_41
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 383
+        width: 35
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2a4e9341441b0c0800000000000000
+      internalID: -4561790093888281859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_42
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 383
+        width: 29
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f7d586b12d08f00800000000000000
+      internalID: 1117123722744790799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_43
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 383
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59a8b2a430270050800000000000000
+      internalID: 5766613258311608670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_44
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 383
+        width: 43
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10960ce368c71ce0800000000000000
+      internalID: -1434457624807043042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_45
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 287
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b982876847b18f0800000000000000
+      internalID: -568732807041869054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_46
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 287
+        width: 60
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0443c56a2f6c9610800000000000000
+      internalID: 1629299393087882255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_47
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 287
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66dbd4818c56578d0800000000000000
+      internalID: -2849259279166358170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_48
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 287
+        width: 38
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03c797f4b5ef36a0800000000000000
+      internalID: -6467197974469950707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_49
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 328
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8466674f709ce480800000000000000
+      internalID: -8868554689866210162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_50
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 287
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5c2a8aafc26a8b0800000000000000
+      internalID: -5141372469514156637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_51
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 191
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913c90c563e688aa0800000000000000
+      internalID: -6158551310677720295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_52
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 191
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beebe5b22292de240800000000000000
+      internalID: 4822556002716925675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_53
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 194
+        width: 53
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8000561239bd673f0800000000000000
+      internalID: -903293250274263032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_54
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 207
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7ac710bb7911c40800000000000000
+      internalID: 5481329050926229451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_55
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 192
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ccd5ccfaae282c0800000000000000
+      internalID: -4430721042610271161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_56
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 191
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21cee23ed78290ad0800000000000000
+      internalID: -2735610777503339502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_57
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 191
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8cca732eb4038ea0800000000000000
+      internalID: -5871844274475447158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_58
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 191
+        width: 28
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300456bbb2abd8050800000000000000
+      internalID: 5804500191740772355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_59
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 95
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e7528862325b640800000000000000
+      internalID: 5095017201839472209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_60
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 95
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d62ca1667ed3800800000000000000
+      internalID: 593885151604403580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_61
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 95
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6de7dfafcf97b1a0800000000000000
+      internalID: -6793785798507893393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_62
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 0
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6454fbadae06a60800000000000000
+      internalID: 7665384791017342702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_63
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3891bd23def8b0bd0800000000000000
+      internalID: -2662876505736275581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_64
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45cf13e8be28a62f0800000000000000
+      internalID: -978826020785095596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_65
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 0
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84270cbcc818dd760800000000000000
+      internalID: 7484280597473423944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Men_spritelist_66
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 0
+        width: 66
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a84bc2024230f0d0800000000000000
+      internalID: -3391155260313876319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

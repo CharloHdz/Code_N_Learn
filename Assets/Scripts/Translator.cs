@@ -18,14 +18,12 @@ public class Translator : MonoBehaviour
 
     void Update()
     {
-        switch (GameManager.instance.Idioma)
+        switch (GameManager.instance.IdiomaActual)
         {
-            case "Es_Español":
-                GameManager.instance.Idioma = "Es_Español";
+            case Idiomas.Español:
                 Text.text = ES_Text;
                 break;
-            case "En_English":
-                GameManager.instance.Idioma = "En_English";
+            case Idiomas.English:
                 Text.text = EN_Text;
                 break;
         }

@@ -66,6 +66,11 @@ public class Lienzo_UI : MonoBehaviour
         }
     }
 
+    public void Play()
+    {
+        StartCoroutine(PlayGame());
+    }
+
     public string EstadoJuego;
     public IEnumerator PlayGame()
     {

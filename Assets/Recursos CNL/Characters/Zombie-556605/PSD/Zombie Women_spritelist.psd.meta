@@ -1,0 +1,1455 @@
+fileFormatVersion: 2
+guid: affe67f6af56fd540a22bf0f1b92e2c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5078161355388052300
+    second: Zombie Women_spritelist_0
+  - first:
+      213: 4567763139634664099
+    second: Zombie Women_spritelist_1
+  - first:
+      213: -7849205513721492348
+    second: Zombie Women_spritelist_2
+  - first:
+      213: 502371626658672047
+    second: Zombie Women_spritelist_3
+  - first:
+      213: -3701566612903223516
+    second: Zombie Women_spritelist_4
+  - first:
+      213: -7697750767876037149
+    second: Zombie Women_spritelist_5
+  - first:
+      213: -911065265525442817
+    second: Zombie Women_spritelist_6
+  - first:
+      213: -4026408506470477966
+    second: Zombie Women_spritelist_7
+  - first:
+      213: 6799749179866087073
+    second: Zombie Women_spritelist_8
+  - first:
+      213: -6124919813099629289
+    second: Zombie Women_spritelist_9
+  - first:
+      213: 6591405648582754920
+    second: Zombie Women_spritelist_10
+  - first:
+      213: 2779013724290218729
+    second: Zombie Women_spritelist_11
+  - first:
+      213: 7596378049452935046
+    second: Zombie Women_spritelist_12
+  - first:
+      213: 6738765754605914646
+    second: Zombie Women_spritelist_13
+  - first:
+      213: 7514160840464932462
+    second: Zombie Women_spritelist_14
+  - first:
+      213: -660629186199703647
+    second: Zombie Women_spritelist_15
+  - first:
+      213: -5883987845744164089
+    second: Zombie Women_spritelist_16
+  - first:
+      213: -4861910410237896495
+    second: Zombie Women_spritelist_17
+  - first:
+      213: 5143299311421253163
+    second: Zombie Women_spritelist_18
+  - first:
+      213: -1182151998041630110
+    second: Zombie Women_spritelist_19
+  - first:
+      213: 7446201402463177508
+    second: Zombie Women_spritelist_20
+  - first:
+      213: 7870372613114216460
+    second: Zombie Women_spritelist_21
+  - first:
+      213: -7407755372452435966
+    second: Zombie Women_spritelist_22
+  - first:
+      213: 4788235007090989917
+    second: Zombie Women_spritelist_23
+  - first:
+      213: 8368462354929082197
+    second: Zombie Women_spritelist_24
+  - first:
+      213: -2299053461048875264
+    second: Zombie Women_spritelist_25
+  - first:
+      213: -1691669492990774054
+    second: Zombie Women_spritelist_26
+  - first:
+      213: -3715127143116319442
+    second: Zombie Women_spritelist_27
+  - first:
+      213: 799087129504505303
+    second: Zombie Women_spritelist_28
+  - first:
+      213: 753744290323279437
+    second: Zombie Women_spritelist_29
+  - first:
+      213: 6448067723704891324
+    second: Zombie Women_spritelist_30
+  - first:
+      213: 7840469059104211542
+    second: Zombie Women_spritelist_31
+  - first:
+      213: -8421212637528207321
+    second: Zombie Women_spritelist_32
+  - first:
+      213: -3705850528605430461
+    second: Zombie Women_spritelist_33
+  - first:
+      213: 3386156663631134749
+    second: Zombie Women_spritelist_34
+  - first:
+      213: 5221700483405841756
+    second: Zombie Women_spritelist_35
+  - first:
+      213: 860800016026674208
+    second: Zombie Women_spritelist_36
+  - first:
+      213: -1785880503303969464
+    second: Zombie Women_spritelist_37
+  - first:
+      213: -4860642117514930089
+    second: Zombie Women_spritelist_38
+  - first:
+      213: 1198850322486093394
+    second: Zombie Women_spritelist_39
+  - first:
+      213: -1916919785495840396
+    second: Zombie Women_spritelist_40
+  - first:
+      213: 54218283614157223
+    second: Zombie Women_spritelist_41
+  - first:
+      213: 7388518429673954822
+    second: Zombie Women_spritelist_42
+  - first:
+      213: -886458107721221747
+    second: Zombie Women_spritelist_43
+  - first:
+      213: -3241125774064011657
+    second: Zombie Women_spritelist_44
+  - first:
+      213: -4719037146852583629
+    second: Zombie Women_spritelist_45
+  - first:
+      213: -2673867600311715304
+    second: Zombie Women_spritelist_46
+  - first:
+      213: -3221047846580396853
+    second: Zombie Women_spritelist_47
+  - first:
+      213: -5280765931624140936
+    second: Zombie Women_spritelist_48
+  - first:
+      213: 4710958292586729023
+    second: Zombie Women_spritelist_49
+  - first:
+      213: -2427885399400108239
+    second: Zombie Women_spritelist_50
+  - first:
+      213: 2521826832380418629
+    second: Zombie Women_spritelist_51
+  - first:
+      213: 8614071521251868338
+    second: Zombie Women_spritelist_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 863
+        width: 21
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc9afb072fb689b0800000000000000
+      internalID: -5078161355388052300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 863
+        width: 22
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a21c0cdf54f36f30800000000000000
+      internalID: 4567763139634664099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 863
+        width: 22
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48cc7911c25021390800000000000000
+      internalID: -7849205513721492348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_3
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 863
+        width: 22
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fada9303558c8f600800000000000000
+      internalID: 502371626658672047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_4
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 863
+        width: 21
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f157df6c461acc0800000000000000
+      internalID: -3701566612903223516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_5
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 767
+        width: 41
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5224706781c2590800000000000000
+      internalID: -7697750767876037149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_6
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 767
+        width: 41
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6b821d7fe3b53f0800000000000000
+      internalID: -911065265525442817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_7
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 767
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f4733dbc25f18c0800000000000000
+      internalID: -4026408506470477966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_8
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 767
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aefbab3adf8d5e50800000000000000
+      internalID: 6799749179866087073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_9
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 767
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715d17691e9effaa0800000000000000
+      internalID: -6124919813099629289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_10
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 767
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862474eb380697b50800000000000000
+      internalID: 6591405648582754920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_11
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 767
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eaf046224a019620800000000000000
+      internalID: 2779013724290218729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_12
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 671
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6878731b691cb6960800000000000000
+      internalID: 7596378049452935046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_13
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 671
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a4ad310c7e48d50800000000000000
+      internalID: 6738765754605914646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_14
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 671
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e10110979a74860800000000000000
+      internalID: 7514160840464932462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_15
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 671
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1afaf4c5149f4d6f0800000000000000
+      internalID: -660629186199703647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_16
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 671
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70304bf9a30e75ea0800000000000000
+      internalID: -5883987845744164089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_17
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 671
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d81ffbcd36078cb0800000000000000
+      internalID: -4861910410237896495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_18
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 671
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2666ce297ba06740800000000000000
+      internalID: 5143299311421253163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_19
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 575
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ad5366507289fe0800000000000000
+      internalID: -1182151998041630110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_20
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 575
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b45df49b8365760800000000000000
+      internalID: 7446201402463177508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_21
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 575
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00c2ae413e293d60800000000000000
+      internalID: 7870372613114216460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_22
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 575
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2082bf99cbd523990800000000000000
+      internalID: -7407755372452435966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_23
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 575
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b9fbaae5a337240800000000000000
+      internalID: 4788235007090989917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_24
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 479
+        width: 33
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55fd6cd7c20c22470800000000000000
+      internalID: 8368462354929082197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_25
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 479
+        width: 29
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007ac8ede0f1810e0800000000000000
+      internalID: -2299053461048875264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_26
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 479
+        width: 35
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad47be81f8bf588e0800000000000000
+      internalID: -1691669492990774054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_27
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 503
+        width: 17
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25d3230c87317cc0800000000000000
+      internalID: -3715127143116319442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_28
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 479
+        width: 34
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ddd3b2b28de61b00800000000000000
+      internalID: 799087129504505303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_29
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 383
+        width: 33
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ea2344076d57a00800000000000000
+      internalID: 753744290323279437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_30
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 383
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7771f6e632c7950800000000000000
+      internalID: 6448067723704891324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_31
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 383
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65209549111fecc60800000000000000
+      internalID: 7840469059104211542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_32
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 403
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720d91249b7d12b80800000000000000
+      internalID: -8421212637528207321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_33
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 383
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d97c3249c229cc0800000000000000
+      internalID: -3705850528605430461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_34
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 287
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d104e818b8b0efe20800000000000000
+      internalID: 3386156663631134749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_35
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 287
+        width: 33
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5504e48ce4377840800000000000000
+      internalID: 5221700483405841756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_36
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 287
+        width: 32
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024abe9cd0d22fb00800000000000000
+      internalID: 860800016026674208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_37
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 325
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845654de4274737e0800000000000000
+      internalID: -1785880503303969464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_38
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 287
+        width: 30
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75858353fb78b8cb0800000000000000
+      internalID: -4860642117514930089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_39
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 191
+        width: 28
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25665aa340c23a010800000000000000
+      internalID: 1198850322486093394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_40
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 191
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4793a928c9bb565e0800000000000000
+      internalID: -1916919785495840396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_41
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 191
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9372fdd3f90c000800000000000000
+      internalID: 54218283614157223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_42
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 197
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e9421ad5a498660800000000000000
+      internalID: 7388518429673954822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_43
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 191
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89f2053c0ba2b3f0800000000000000
+      internalID: -886458107721221747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_44
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 191
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7763d8cd7453503d0800000000000000
+      internalID: -3241125774064011657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_45
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 95
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3379afba7bc928eb0800000000000000
+      internalID: -4719037146852583629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_46
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 95
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a7ef2959384ead0800000000000000
+      internalID: -2673867600311715304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_47
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 95
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bccd904ac0a8c43d0800000000000000
+      internalID: -3221047846580396853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_48
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87fee872d53f6b6b0800000000000000
+      internalID: -5280765931624140936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_49
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e005d7b9fa06140800000000000000
+      internalID: 4710958292586729023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_50
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f266db71b6e4ed0800000000000000
+      internalID: -2427885399400108239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_51
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 0
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a551194245ff220800000000000000
+      internalID: 2521826832380418629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie Women_spritelist_52
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 0
+        width: 66
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2beb606c8645b8770800000000000000
+      internalID: 8614071521251868338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

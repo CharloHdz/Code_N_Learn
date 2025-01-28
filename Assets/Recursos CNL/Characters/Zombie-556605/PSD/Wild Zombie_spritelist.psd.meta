@@ -1,0 +1,1830 @@
+fileFormatVersion: 2
+guid: a79194ed18c447044944eefc0b4741f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4054676342608688201
+    second: Wild Zombie_spritelist_0
+  - first:
+      213: -8590897649015574419
+    second: Wild Zombie_spritelist_1
+  - first:
+      213: -6655217794281919086
+    second: Wild Zombie_spritelist_2
+  - first:
+      213: -8686411563748000098
+    second: Wild Zombie_spritelist_3
+  - first:
+      213: -3872338934667392565
+    second: Wild Zombie_spritelist_4
+  - first:
+      213: -835162526479301296
+    second: Wild Zombie_spritelist_5
+  - first:
+      213: -3254365065913714351
+    second: Wild Zombie_spritelist_6
+  - first:
+      213: -1579731978577398422
+    second: Wild Zombie_spritelist_7
+  - first:
+      213: 7888367694119759467
+    second: Wild Zombie_spritelist_8
+  - first:
+      213: -6721514598123719614
+    second: Wild Zombie_spritelist_9
+  - first:
+      213: 5102672127006890716
+    second: Wild Zombie_spritelist_10
+  - first:
+      213: 8705372972219248261
+    second: Wild Zombie_spritelist_11
+  - first:
+      213: -717780075575832349
+    second: Wild Zombie_spritelist_12
+  - first:
+      213: -6812411581743485505
+    second: Wild Zombie_spritelist_13
+  - first:
+      213: -3650513439257846768
+    second: Wild Zombie_spritelist_14
+  - first:
+      213: 265595291369412198
+    second: Wild Zombie_spritelist_15
+  - first:
+      213: -4792199006134218440
+    second: Wild Zombie_spritelist_16
+  - first:
+      213: 4463063957611927920
+    second: Wild Zombie_spritelist_17
+  - first:
+      213: -1558617148329829367
+    second: Wild Zombie_spritelist_18
+  - first:
+      213: 3712930188628318006
+    second: Wild Zombie_spritelist_19
+  - first:
+      213: -62833206281730992
+    second: Wild Zombie_spritelist_20
+  - first:
+      213: 2026749973699233832
+    second: Wild Zombie_spritelist_21
+  - first:
+      213: -2560167185847735131
+    second: Wild Zombie_spritelist_22
+  - first:
+      213: 4044528532088346208
+    second: Wild Zombie_spritelist_23
+  - first:
+      213: -6440451167442534408
+    second: Wild Zombie_spritelist_24
+  - first:
+      213: 363202133142157390
+    second: Wild Zombie_spritelist_25
+  - first:
+      213: -6641393194321878658
+    second: Wild Zombie_spritelist_26
+  - first:
+      213: 4394016899975595635
+    second: Wild Zombie_spritelist_27
+  - first:
+      213: -6827044482749100903
+    second: Wild Zombie_spritelist_28
+  - first:
+      213: 4297968620092614069
+    second: Wild Zombie_spritelist_29
+  - first:
+      213: -5886766062025037649
+    second: Wild Zombie_spritelist_30
+  - first:
+      213: -8236561456218594162
+    second: Wild Zombie_spritelist_31
+  - first:
+      213: 8319961261265421636
+    second: Wild Zombie_spritelist_32
+  - first:
+      213: 2851556106454572746
+    second: Wild Zombie_spritelist_33
+  - first:
+      213: 8729180368744632057
+    second: Wild Zombie_spritelist_34
+  - first:
+      213: 4853584778145114541
+    second: Wild Zombie_spritelist_35
+  - first:
+      213: -8782598247466623716
+    second: Wild Zombie_spritelist_36
+  - first:
+      213: -4609518788137357646
+    second: Wild Zombie_spritelist_37
+  - first:
+      213: -782442269131674608
+    second: Wild Zombie_spritelist_38
+  - first:
+      213: -2070541762059447972
+    second: Wild Zombie_spritelist_39
+  - first:
+      213: 7527408675997305938
+    second: Wild Zombie_spritelist_40
+  - first:
+      213: -7235971384478825671
+    second: Wild Zombie_spritelist_41
+  - first:
+      213: -7359028543238479169
+    second: Wild Zombie_spritelist_42
+  - first:
+      213: 8764578653013328660
+    second: Wild Zombie_spritelist_43
+  - first:
+      213: -5647465342968979366
+    second: Wild Zombie_spritelist_44
+  - first:
+      213: -5512299074262020042
+    second: Wild Zombie_spritelist_45
+  - first:
+      213: -7388755833020049951
+    second: Wild Zombie_spritelist_46
+  - first:
+      213: 1403932531137511913
+    second: Wild Zombie_spritelist_47
+  - first:
+      213: -984797033358068418
+    second: Wild Zombie_spritelist_48
+  - first:
+      213: -3747128706207041041
+    second: Wild Zombie_spritelist_49
+  - first:
+      213: 5438015951982225154
+    second: Wild Zombie_spritelist_50
+  - first:
+      213: -3508909351452526936
+    second: Wild Zombie_spritelist_51
+  - first:
+      213: -8152060826905379913
+    second: Wild Zombie_spritelist_52
+  - first:
+      213: 6644441638240574534
+    second: Wild Zombie_spritelist_53
+  - first:
+      213: -4055879200920870789
+    second: Wild Zombie_spritelist_54
+  - first:
+      213: -5287650758976315173
+    second: Wild Zombie_spritelist_55
+  - first:
+      213: 1154990648037983565
+    second: Wild Zombie_spritelist_56
+  - first:
+      213: 4794448333500622352
+    second: Wild Zombie_spritelist_57
+  - first:
+      213: -7107743784547154590
+    second: Wild Zombie_spritelist_58
+  - first:
+      213: 1958502541531902515
+    second: Wild Zombie_spritelist_59
+  - first:
+      213: 3759177538798304276
+    second: Wild Zombie_spritelist_60
+  - first:
+      213: 4125306170904572398
+    second: Wild Zombie_spritelist_61
+  - first:
+      213: 6073728973738673590
+    second: Wild Zombie_spritelist_62
+  - first:
+      213: -8922262932581110502
+    second: Wild Zombie_spritelist_63
+  - first:
+      213: 1751162793129164824
+    second: Wild Zombie_spritelist_64
+  - first:
+      213: -7738095301109799488
+    second: Wild Zombie_spritelist_65
+  - first:
+      213: 1849988576726531936
+    second: Wild Zombie_spritelist_66
+  - first:
+      213: 2574050282979276952
+    second: Wild Zombie_spritelist_67
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 863
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944fe58a6aa154830800000000000000
+      internalID: 4054676342608688201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 863
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6030b0da1007c880800000000000000
+      internalID: -8590897649015574419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 863
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29da7fc4daae3a3a0800000000000000
+      internalID: -6655217794281919086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 863
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e74f194baa37780800000000000000
+      internalID: -8686411563748000098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_4
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 863
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc94c356140b24ac0800000000000000
+      internalID: -3872338934667392565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 863
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055cb776b18e864f0800000000000000
+      internalID: -835162526479301296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_6
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 863
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 159b5c4073c26d2d0800000000000000
+      internalID: -3254365065913714351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_7
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 863
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65b190a22aa31ae0800000000000000
+      internalID: -1579731978577398422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_8
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 863
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6eeca99f9c197d60800000000000000
+      internalID: 7888367694119759467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_9
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 767
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244bb3ac51268b2a0800000000000000
+      internalID: -6721514598123719614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_10
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 767
+        width: 56
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda588fa34550d640800000000000000
+      internalID: 5102672127006890716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_11
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 767
+        width: 65
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e2a6e5892bfc870800000000000000
+      internalID: 8705372972219248261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_12
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 767
+        width: 57
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0137003dee906f0800000000000000
+      internalID: -717780075575832349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_13
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 767
+        width: 60
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd2c6692c37571a0800000000000000
+      internalID: -6812411581743485505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_14
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 767
+        width: 53
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c1f354e55c65dc0800000000000000
+      internalID: -3650513439257846768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_15
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 767
+        width: 56
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6661714a2859fa300800000000000000
+      internalID: 265595291369412198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_16
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 767
+        width: 65
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831d362e460be7db0800000000000000
+      internalID: -4792199006134218440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_17
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 767
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079de4be50dffed30800000000000000
+      internalID: 4463063957611927920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_18
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 767
+        width: 59
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90cd7f426fdae5ae0800000000000000
+      internalID: -1558617148329829367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_19
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 671
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637d309a55af68330800000000000000
+      internalID: 3712930188628318006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_20
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 671
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0548a732885c02ff0800000000000000
+      internalID: -62833206281730992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_21
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 671
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82800e6ec56702c10800000000000000
+      internalID: 2026749973699233832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_22
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 671
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac2fe14285787cd0800000000000000
+      internalID: -2560167185847735131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_23
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 671
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066de07654d012830800000000000000
+      internalID: 4044528532088346208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_24
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 671
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff765349cbee96a0800000000000000
+      internalID: -6440451167442534408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_25
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 671
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e483a9f6a6a5a0500800000000000000
+      internalID: 363202133142157390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_26
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 671
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e716fbec31805d3a0800000000000000
+      internalID: -6641393194321878658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_27
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 575
+        width: 50
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376cb1c071faafc30800000000000000
+      internalID: 4394016899975595635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_28
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 575
+        width: 52
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c03f3d6377141a0800000000000000
+      internalID: -6827044482749100903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_29
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 575
+        width: 51
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5656830b375ab30800000000000000
+      internalID: 4297968620092614069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_30
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 575
+        width: 50
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa82c2db4710e4ea0800000000000000
+      internalID: -5886766062025037649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_31
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 575
+        width: 50
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84aa67aefad1bd80800000000000000
+      internalID: -8236561456218594162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_32
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 575
+        width: 50
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4458cb2afa0767370800000000000000
+      internalID: 8319961261265421636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_33
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 575
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace125eab23c29720800000000000000
+      internalID: 2851556106454572746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_34
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 575
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe4653db47442970800000000000000
+      internalID: 8729180368744632057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_35
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 575
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9259ce3a56b5340800000000000000
+      internalID: 4853584778145114541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_36
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 575
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d98c61d61fd1680800000000000000
+      internalID: -8782598247466623716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_37
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 575
+        width: 50
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be659f9513b700c0800000000000000
+      internalID: -4609518788137357646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_38
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 479
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ce72bd6e43425f0800000000000000
+      internalID: -782442269131674608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_39
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 479
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51d5d3dc35f343e0800000000000000
+      internalID: -2070541762059447972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_40
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 479
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c43041f4ab67860800000000000000
+      internalID: 7527408675997305938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_41
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 498
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9338f371d5aa49b90800000000000000
+      internalID: -7235971384478825671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_42
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 479
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb26f4c978a7fd990800000000000000
+      internalID: -7359028543238479169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_43
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 383
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413c4d229d902a970800000000000000
+      internalID: 8764578653013328660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_44
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 383
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50210f213c20a1b0800000000000000
+      internalID: -5647465342968979366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_45
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 383
+        width: 55
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630d5e682316083b0800000000000000
+      internalID: -5512299074262020042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_46
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 383
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e59eb897bdd57990800000000000000
+      internalID: -7388755833020049951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_47
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 287
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1011fd235cb7310800000000000000
+      internalID: 1403932531137511913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_48
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 287
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3575dad05c4552f0800000000000000
+      internalID: -984797033358068418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_49
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 287
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe93cda7b468ffbc0800000000000000
+      internalID: -3747128706207041041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_50
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 305
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207eecc42b6b77b40800000000000000
+      internalID: 5438015951982225154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_51
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 287
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a630ad2989dd4fc0800000000000000
+      internalID: -3508909351452526936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_52
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 191
+        width: 52
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb7de09edf0ede80800000000000000
+      internalID: -8152060826905379913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_53
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 191
+        width: 52
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64cd42a577cc53c50800000000000000
+      internalID: 6644441638240574534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_54
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 192
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7067311b5f96b7c0800000000000000
+      internalID: -4055879200920870789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_55
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 206
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd064ee56ad7e96b0800000000000000
+      internalID: -5287650758976315173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_56
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 191
+        width: 58
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d45c33fffd9570010800000000000000
+      internalID: 1154990648037983565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_57
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 191
+        width: 49
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016a4447b5d498240800000000000000
+      internalID: 4794448333500622352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_58
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 95
+        width: 47
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2658397bfa83c5d90800000000000000
+      internalID: -7107743784547154590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_59
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 95
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33275b75faffd2b10800000000000000
+      internalID: 1958502541531902515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_60
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 95
+        width: 53
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c33b7fd084b2430800000000000000
+      internalID: 3759177538798304276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_61
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 95
+        width: 53
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee17e7a0b18004930800000000000000
+      internalID: 4125306170904572398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_62
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 95
+        width: 53
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b501b552583a4450800000000000000
+      internalID: 6073728973738673590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_63
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d2ede8221cd2480800000000000000
+      internalID: -8922262932581110502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_64
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810485448416d4810800000000000000
+      internalID: 1751162793129164824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_65
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 0
+        width: 65
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c52b336253cc9490800000000000000
+      internalID: -7738095301109799488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_66
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 0
+        width: 72
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06fb0521fca7ca910800000000000000
+      internalID: 1849988576726531936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wild Zombie_spritelist_67
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 0
+        width: 76
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89839fe281dd8b320800000000000000
+      internalID: 2574050282979276952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

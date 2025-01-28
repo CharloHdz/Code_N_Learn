@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     public static Player Instance { get; private set; }
 
     [Header("Componentes")]
-    public Rigidbody PlayerRB;
+    public Rigidbody2D PlayerRB;
     public Animator animator;
 
     [Header("Proyectil")]
@@ -20,6 +20,8 @@ public class Player : MonoBehaviour
     [Header("Estado del Jugador")]
     public float posX; // Posición X para movimiento
     public string estado;
+
+    public bool PararTodo;
 
     private void Awake()
     {
@@ -36,7 +38,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        PlayerRB = GetComponent<Rigidbody>();
+        PlayerRB = GetComponent<Rigidbody2D>();
         SpawnPoint = GameObject.Find("SpawnPoint").transform;
     }
 
@@ -55,8 +57,12 @@ public class Player : MonoBehaviour
                 SetAnimacion("Idle");
                 break;
             case "Disparar":
-                SetAnimacion("Idle");
+                SetAnimacion("Attack");
                 break;
+        }
+
+        if(PararTodo){
+            Parar();
         }
     }
 

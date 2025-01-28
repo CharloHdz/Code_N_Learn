@@ -7,43 +7,36 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instance;
+    public static GameManager instance {get; private set;}
 
     [Header("Referencias UI")]
     private Lienzo_UI lienzoUI;
 
-    [Header("Cámaras")]
-    public Camera CenterCamera;
-    public Camera PlayerCamera;
+    [Header("UI Panels - Estados de Juego")]
+    public GameObject[] GamePanels;
+    public EstadosJuego estadoJuego;
+    public string EstadoAnterior;
 
-    [Header("UI Panels")]
-    public GameObject MenuPanel;
-    public GameObject GamePanel;
-    public GameObject TutorialPanel;
-    public GameObject PausePanel;
-    public GameObject ConfigPanel;
-
-    [Header("Temas")]
-    public Image TemasImg;
-    public List<TemaSO> TemaSO; // Lista de ScriptableObjects tipo Tema
-    public TextMeshProUGUI TemasTxt;
-    public int TemasIndex;
 
     [Header("Variables Generales")]
-    public bool FirstTime = true;
-    public EstadosJuego estadoJuego;
-    public string Idioma;
-    public string Resolucion;
+    public bool TutorialSuperado = true;
+    public Idiomas IdiomaActual;
+    public Resoluciones ResolucionActual;
 
     [Header ("Elementos Tutorial")]
-    public List<GameObject> TutorialElements;
+    public GameObject[] TutorialElements;
     public GameObject DialogueGlobe;
+
+    [Header("Juego")]
+    public GameObject[] Niveles;
+    public Niveles NivelActual;
 
     void Awake()
     {
         if (instance == null)
         {
             instance = this;
+            DontDestroyOnLoad(this);
         }
         else
         {
@@ -53,178 +46,144 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        lienzoUI = FindObjectOfType<Lienzo_UI>();
-        CloseEv(); // Cerrar todos los paneles inicialmente
-        MenuPanel.SetActive(true);
-        estadoJuego = EstadosJuego.Menu;
-
-        GetPreferences();
-
-        UpdateTemaUI();
+        CambiarEstado(EstadosJuego.Menu);
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && (estadoJuego == EstadosJuego.Juego || estadoJuego == EstadosJuego.Pausa))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //Pausa del Juego
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            PausarJuego();
-        }
-        
-        SavePreferences();
-    }
+            //Pausar en juego
+            if (estadoJuego == EstadosJuego.PlayGame || estadoJuego == EstadosJuego.ResumeGame)
+            {
+                CambiarEstado(EstadosJuego.Pause);
+            }
+            else if (estadoJuego == EstadosJuego.Pause)
+            {
+                CambiarEstado(EstadosJuego.ResumeGame);
+            }
 
-    // Cambia entre cámaras
-    public void ChangeCamera()
-    {
-        CenterCamera.enabled = !CenterCamera.enabled;
-        PlayerCamera.enabled = !PlayerCamera.enabled;
-    }
-
-    // Comienza el juego con animaciones desde el lienzo
-    public void PlayGame()
-    {
-        StartCoroutine(lienzoUI.PlayGame());
-    }
-
-    // Cierra todos los paneles de UI
-    public void CloseEv()
-    {
-        MenuPanel.SetActive(false);
-        GamePanel.SetActive(false);
-        PausePanel.SetActive(false);
-        ConfigPanel.SetActive(false);
-        TutorialPanel.SetActive(false);
-    }
-
-    // Avanza al siguiente tema
-    public void TemaSig()
-    {
-        TemasIndex++;
-        if (TemasIndex >= TemaSO.Count)
-        {
-            TemasIndex = 0;
-        }
-        UpdateTemaUI();
-    }
-
-    // Regresa al tema anterior
-    public void TemaAnt()
-    {
-        TemasIndex--;
-        if (TemasIndex < 0)
-        {
-            TemasIndex = TemaSO.Count - 1;
-        }
-        UpdateTemaUI();
-    }
-
-    // Actualiza la UI y el Skybox con el tema seleccionado
-    private void UpdateTemaUI()
-    {
-        TemasImg.sprite = TemaSO[TemasIndex].Sprite;
-        RenderSettings.skybox = TemaSO[TemasIndex].Material;
-        DynamicGI.UpdateEnvironment(); // Actualiza iluminación global
-    }
-
-    // Pausa o reanuda el juego
-    public void PausarJuego()
-    {
-        if (estadoJuego == EstadosJuego.Juego)
-        {
-            CloseEv();
-            Time.timeScale = 0;
-            PausePanel.SetActive(true);
-            estadoJuego = EstadosJuego.Pausa;
-        }
-        else if (estadoJuego == EstadosJuego.Pausa)
-        {
-            CloseEv();
-            Time.timeScale = 1;
-            GamePanel.SetActive(true);
-            estadoJuego = EstadosJuego.Juego;
+            //Pausar en tutorial
+            if (estadoJuego == EstadosJuego.PlayTutorial || estadoJuego == EstadosJuego.ResumeTutorial)
+            {
+                CambiarEstado(EstadosJuego.Pause);
+            } else if (estadoJuego == EstadosJuego.Pause && EstadoAnterior == "PlayTutorial" || estadoJuego == EstadosJuego.Pause && EstadoAnterior == "ResumeTutorial")
+            {
+                CambiarEstado(EstadosJuego.ResumeTutorial);
+            }
         }
     }
 
-    // Cambia al menú principal
-    public void GotoMenu()
-    {
-        Time.timeScale = 1;
-        CloseEv();
-        MenuPanel.SetActive(true);
-        estadoJuego = EstadosJuego.Menu;
-        SceneManager.LoadScene("Game");
-    }
 
-    // Cambia al estado de juego
-    public void GoToGame()
-    {
-        Time.timeScale = 1;
-        CloseEv();
-        GamePanel.SetActive(true);
-        estadoJuego = EstadosJuego.Juego;
-    }
-
-    // Cambia al panel de configuración
-    public void GoToConfig()
-    {
-        Time.timeScale = 0;
-        CloseEv();
-        ConfigPanel.SetActive(true);
-        estadoJuego = EstadosJuego.Config;
-    }
-
-    // Regresa al menú de pausa
-    public void ReturnToPause()
-    {
-        Time.timeScale = 0;
-        CloseEv();
-        PausePanel.SetActive(true);
-        estadoJuego = EstadosJuego.Pausa;
-    }
-
-    // Comienza el juego mostrando un tutorial si es la primera vez
-    public void StartGame()
-    {
-        if (FirstTime)
-        {
-            CloseEv();
-            TutorialPanel.SetActive(true);
-            GamePanel.SetActive(true);
-            estadoJuego = EstadosJuego.Juego;
-            FirstTime = false;
+    //Acciones de Botones
+    public void B_Jugar(){
+        if(!TutorialSuperado){
+            CambiarEstado(EstadosJuego.PlayTutorial);
+        }else{
+            CambiarEstado(EstadosJuego.PlayGame);
         }
-        else
-        {
-            GoToGame();
+    }
+    public void B_Continuar(){
+        if(EstadoAnterior == "PlayTutorial" || EstadoAnterior == "ResumeTutorial"){
+            CambiarEstado(EstadosJuego.ResumeTutorial);
+        } else if(EstadoAnterior == "PlayGame" || EstadoAnterior == "ResumeGame"){
+            CambiarEstado(EstadosJuego.ResumeGame);
+        }
+    }
+    public void B_Config(){
+        CambiarEstado(EstadosJuego.Config);
+    }
+    public void B_RegresarMenu(){
+        CambiarEstado(EstadosJuego.Menu);
+    }
+    public void B_Creditos(){
+        CambiarEstado(EstadosJuego.Creditos);
+    }
+
+    public void B_CambiarIdioma(){
+        if(IdiomaActual == Idiomas.Español){
+            IdiomaActual = Idiomas.English;
+        }else{
+            IdiomaActual = Idiomas.Español;
         }
     }
 
-    public void CambiarIdioma()
+
+    /*NOTA: Número de lista de Paneles de Juego
+    [0]: Menu Panel
+    [1]: Tutorial Panel
+    [2]: Game Panel
+    [3]: Pause Panel
+    [4]: Config Panel
+    [5]: Game Over Panel
+    [6]: Creditos Panel
+    */
+
+    //Cambiar de estado de juego y guardar el estado anterior
+    public void CambiarEstado(EstadosJuego nuevoEstado)
     {
-        Idioma = PlayerPrefs.GetString("Idioma", Idioma);
-        switch (Idioma)
+        GuardarEstadoJuego();
+        estadoJuego = nuevoEstado;
+        cerrarTodo();
+        switch (estadoJuego)
         {
-            case "Es_Español":
-                Idioma = "En_English";
+            case EstadosJuego.Menu:
+                GamePanels[0].SetActive(true);
                 break;
-            case "En_English":
-                Idioma = "Es_Español";
+            case EstadosJuego.PlayTutorial:
+                GamePanels[1].SetActive(true);
+                break;
+            case EstadosJuego.ResumeTutorial:
+                GamePanels[1].SetActive(true);
+                break;
+            case EstadosJuego.PlayGame:
+                GamePanels[2].SetActive(true);
+                break;
+            case EstadosJuego.Pause:
+                GamePanels[3].SetActive(true);
+                break;
+            case EstadosJuego.ResumeGame:
+                GamePanels[2].SetActive(true);
+                break;
+            case EstadosJuego.Config:
+                GamePanels[4].SetActive(true);
+                break;
+            case EstadosJuego.GameOver:
+                GamePanels[5].SetActive(true);
+                break;
+            case EstadosJuego.Creditos:
+                GamePanels[6].SetActive(true);
                 break;
         }
     }
 
-    public void SavePreferences()
+    //Guardar el estado anterior
+    public void GuardarEstadoJuego()
     {
-        PlayerPrefs.SetInt("FirstTime", FirstTime ? 1 : 0);
-        PlayerPrefs.SetInt("TemaIndex", TemasIndex);
-        PlayerPrefs.SetString("Idioma", Idioma);
-        PlayerPrefs.Save();
+        EstadoAnterior = estadoJuego.ToString();
     }
 
-    void GetPreferences(){
-        FirstTime = PlayerPrefs.GetInt("FirstTime", FirstTime ? 1 : 0) == 1;
-        TemasIndex = PlayerPrefs.GetInt("TemaIndex", 1);
-        Idioma = PlayerPrefs.GetString("Idioma", "Es_Español");
+    private void cerrarTodo(){
+        foreach (GameObject panel in GamePanels)
+        {
+            panel.SetActive(false);
+        }
     }
 
 }
@@ -233,8 +192,35 @@ public class GameManager : MonoBehaviour
 public enum EstadosJuego
 {
     Menu,
-    Juego,
-    Pausa,
+    PlayTutorial,
+    ResumeTutorial,
+    PlayGame,
+    Pause,
+    ResumeGame,
     Config,
-    GameOver
+    GameOver,
+    Creditos
+}
+
+public enum Niveles
+{
+    Tutorial,
+    N1,
+    N2,
+    N3,
+    N4,
+    N5
+}
+
+public enum Resoluciones
+{
+    r1920x1080,
+    r1280x720,
+    r720x405
+}
+
+public enum Idiomas
+{
+    Español,
+    English
 }
